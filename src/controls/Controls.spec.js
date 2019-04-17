@@ -3,6 +3,7 @@ import { render, fireEvent } from 'react-testing-library';
 import renderer from 'react-test-renderer';
 
 import Controls from './Controls';
+import { get } from 'https';
 
 describe('the Controls component', () => {
   it('should match the snapshot', () => {
