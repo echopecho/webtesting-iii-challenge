@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the Display component should match the snapshot 1`] = `
+<div
+  className="display panel"
+>
+  <div
+    className="led green-led"
+  >
+    Unlocked
+  </div>
+  <div
+    className="led green-led"
+  >
+    Open
+  </div>
+</div>
+`;
+
+exports[`the Display component should match the snapshot when closed 1`] = `
+<div
+  className="display panel"
+>
+  <div
+    className="led green-led"
+  >
+    Unlocked
+  </div>
+  <div
+    className="led red-led"
+  >
+    Closed
+  </div>
+</div>
+`;
+
+exports[`the Display component should match the snapshot when locked 1`] = `
+<div
+  className="display panel"
+>
+  <div
+    className="led red-led"
+  >
+    Locked
+  </div>
+  <div
+    className="led green-led"
+  >
+    Open
+  </div>
+</div>
+`;
+
+exports[`the Display component should match the snapshot when locked and closed 1`] = `
+<div
+  className="display panel"
+>
+  <div
+    className="led red-led"
+  >
+    Locked
+  </div>
+  <div
+    className="led red-led"
+  >
+    Closed
+  </div>
+</div>
+`;
+
+exports[`the Display component should match the snapshot when locked and not closed 1`] = `
+<div
+  className="display panel"
+>
+  <div
+    className="led red-led"
+  >
+    Locked
+  </div>
+  <div
+    className="led green-led"
+  >
+    Open
+  </div>
+</div>
+`;
+
+exports[`the Display component should match the snapshot when not closed 1`] = `
+<div
+  className="display panel"
+>
+  <div
+    className="led green-led"
+  >
+    Unlocked
+  </div>
+  <div
+    className="led green-led"
+  >
+    Open
+  </div>
+</div>
+`;
+
+exports[`the Display component should match the snapshot when not locked 1`] = `
+<div
+  className="display panel"
+>
+  <div
+    className="led green-led"
+  >
+    Unlocked
+  </div>
+  <div
+    className="led green-led"
+  >
+    Open
+  </div>
+</div>
+`;
+
+exports[`the Display component should match the snapshot when not locked and closed 1`] = `
+<div
+  className="display panel"
+>
+  <div
+    className="led green-led"
+  >
+    Unlocked
+  </div>
+  <div
+    className="led red-led"
+  >
+    Closed
+  </div>
+</div>
+`;
+
+exports[`the Display component should match the snapshot when not locked and not closed 1`] = `
+<div
+  className="display panel"
+>
+  <div
+    className="led green-led"
+  >
+    Unlocked
+  </div>
+  <div
+    className="led green-led"
+  >
+    Open
+  </div>
+</div>
+`;
