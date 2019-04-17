@@ -29,4 +29,24 @@ describe('the Controls component', () => {
     const tree = renderer.create(<Controls locked={false} />);
     expect(tree.toJSON()).toMatchSnapshot();
   });
+
+  it('should match the snapshot when locked and closed', () => {
+    const tree = renderer.create(<Controls locked={true} closed={true} />);
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  it('should match the snapshot when not locked and closed', () => {
+    const tree = renderer.create(<Controls locked={false} closed={true} />);
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  it('should match the snapshot when not locked and not closed', () => {
+    const tree = renderer.create(<Controls locked={false} closed={false} />);
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  it('should match the snapshot when locked and not closed', () => {
+    const tree = renderer.create(<Controls locked={true} closed={false} />);
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
 });
